@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+h3 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+    font-size: 1.75em;
+}
+
+.div1 > .s1 {
+background-color: lightblue;
+position: relative;
+
+}
+.div1 {
+    width: 33.33%;
+}
+.div2 > .s1 {
+background-color: lightcoral;
+position: relative;
+}
+.div2 {
+    width: 33.33%;
+}
+.div3 > .s1 {
+background-color: lightpink;
+position: relative;
+}
+.div3 {
+    width: 33.33%;
+}
+.s1 {
+    margin: 25px;
+    padding: 5px;
+    border: black solid 1px;
+    position: relative;
+    box-sizing: border-box;
+}
+.gags {
+    margin: 0px;
+    width: 35%;
+    position: absolute;
+    padding: 1px;
+    padding-right: 1px;
+    top: 0px;
+    right: 0px;
+    box-sizing: border-box;
+}
+.s1 > .gags > h4 {
+    margin: 0px;
+    color: white;
+   text-align: center;
+   font-size: 16px;
+   font-size: 1.25em;
+   
+}
+p {
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+}
+.C {
+    background-color:darkgoldenrod;
+    padding: 0%;
+    border: black solid 1px;
+    box-sizing: border-box;
+}
+.B {
+    background-color: olive;
+    padding: 0%;
+    border: black solid 1px;
+    box-sizing: border-box;
+}
+.S {
+    background-color:brown;
+    padding: 0%; 
+    border: black solid 1px;
+    box-sizing: border-box;
+}
+@media (min-width:992px) {
+    .div1 {
+        float: left;
+        width: 33.33%;
+        clear: left;
+    }
+    .div2 {
+        float: left;
+        width: 33.33%;
+    }
+    .div3 {
+        float: left;
+        width: 33.33%;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .div1 {
+        float: left;
+        width: 50%;
+        clear: left;
+    }
+    .div2 {
+        float: left;
+        width: 50%;
+    }
+    .div3 {
+        float: left;
+        width: 100%;
+    }
+
+}
+@media (max-width:767px) {
+    .div1 {
+        float: left;
+        width: 100%;
+        clear: left;
+    }
+    .div2 {
+        float: left;
+        width: 100%;
+    }
+    .div3 {
+        float: left;
+        width: 100%;
+    }
+}
